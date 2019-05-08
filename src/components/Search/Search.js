@@ -4,6 +4,7 @@ const Search = (props) => {
     return(
         <form onSubmit={props.submitHandler} className="Search">
             <input 
+                autocomplete="off"
                 onChange={props.searchHandler} 
                 type="text" 
                 name="artistSearchField" 
